@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+	<meta name='description' content="Movie Application">
+	<meta name='keywords' content="Movie, Application, Site">
+	<meta name='author' content="Suchita">
+	<meta name='viewport' content="width=device-width, initial-scale=1.0">
+	<title>Movie Application</title>
+	<link rel="stylesheet" type="text/css" href="css/movie.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class='header'>
+		<nav class='navbar'>
+			<ul class='navbar__list'>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Movie App</a>
+				</li>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Home</a>
+				</li>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Explore</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class='movie-section'>
+			<h1 class='banner__content'>
+				Latest
+			</h1>
+		</section>
+		<section class='movie-section'>
+			<h1 class='banner__content'>
+				Trending
+			</h1>
+		</section>
+		<section class='movie-section'>
+			<h1 class='banner__content'>
+				Most Watched
+			</h1>
+		</section>	
+		<template>
+			<section class='movielist'>
+				<figure class='figure'>
+					<img src class='movie-img'>
+				</figure>
+				<span class='left-span title'>
+					<strong></strong>
+				</span>
+				<span class='right-span hearts'></span>
+				<p class='clearfix genres'></p>
+				<span class='ratings'></span>
+				<a href='#' class='show-more'>Show more</a>
+			</section>
+		</template>
+		<template>
+			<section data-modal="form" class="modal-wrapper">
+			  <article class="modal-body">
+			    <header class='modal-header'>
+			      <h2 class='modal-header__banner'></h2>
+			      <button class="close">X</button>
+			    </header>
+			    <div class="modal-main clearfix">
+				    <img src alt="palceholder" class='movie-image'>
+				    <div class='overview'></div>
+			    </div>
+			    <footer class='modal-footer clearfix'>
+			    	<table class='footer-table'>
+			    		<tr class='table-row'>
+			    			<td class='table-column'>
+			    				<strong>Genre</strong>
+			    			</td>
+			    			<td class='genre table-column'>
+			    			</td>
+			    		</tr>
+			    		<tr>
+			    			<td class='table-column'>
+			    				<strong>Cast</strong>
+			    			</td>
+			    			<td class='cast table-column'>
+			    			</td>
+			    		</tr>
+			    		<tr>
+			    			<td class='table-column'>
+			    				<strong>Director</strong>
+			    			</td>
+			    			<td class='director table-column'>
+			    			</td>
+			    		</tr>
+			    		<tr>
+			    			<td class='table-column'>
+			    				<strong>Movie Rating </strong>
+			    			</td>
+			    			<td class='ratings table-column'>
+			    			</td>
+			    		</tr>
+			    		<tfoot class='tfoot'>
+			    			<tr>
+			    				<td colspan='2' class='tfoot-row'>
+			    					<button class='close-button'>
+			    					Close
+			    				</button>
+			    			</td>
+			    			</tr>
+			    		</tfoot>
+			    	</table>	
+			    </footer>
+			  </article>
+			</section>
+			      
+		</template>
+	</main>
+	<script type="module" src='./js/main.js'></script>
+
+</body>
+</html>

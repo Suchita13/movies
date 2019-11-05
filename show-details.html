@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="UTF-8">
+	<meta name='description' content="Movie Application">
+	<meta name='keywords' content="Movie, Application, Site">
+	<meta name='author' content="Suchita">
+	<meta name='viewport' content="width=device-width, initial-scale=1.0">
+	<title>Movie Application</title>
+	<link rel="stylesheet" type="text/css" href="css/movie.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header class='header'>
+		<nav class='navbar'>
+			<ul class='navbar__list'>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Movie App</a>
+				</li>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Home</a>
+				</li>
+				<li class='navbar__list__item'>
+					<a href='#' class='link'>Explore</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class='movie-detail'>			
+		</section>
+		<template>
+			<section class='movie-info'>
+				<figure class='figure'>
+					<img src class='movie-banner'/>
+				</figure>
+				<section class='movie-view'>
+					<article class="movie-article">
+					    <header class='movie-header'>
+					    	<h2 class='movie-header__banner'></h2>
+					    </header>
+					    <div class='description'>
+				    	</div>
+					</article>
+			    	<table class='movie-table'>
+			    		<tr class='movie-row'>
+			    			<td class='movie-column' colspan='2'>
+			    				<strong>Genre</strong>
+			    			</td>
+			    			<td class='genre movie-column'>
+			    			</td>
+			    		</tr>
+			    		<tr class='movie-row'>
+			    			<td class='movie-column' colspan='2'>
+			    				<strong>Cast</strong>
+			    			</td>
+			    			<td class='cast movie-column' >
+			    			</td>
+			    		</tr>
+			    		<tr class='movie-row'>
+			    			<td class='movie-column' colspan='2'>
+			    				<strong>Director</strong>
+			    			</td>
+			    			<td class='director movie-column'>
+			    			</td>
+			    		</tr>
+			    		<tr class='movie-row'>
+			    			<td class='movie-column'colspan='2'>
+			    				<strong>Movie Rating </strong>
+			    			</td>
+			    			<td class='ratings movie-column'>
+			    			</td>
+			    		</tr>
+			    	</table>
+				</section>
+			</section>
+		</template>
+	</main>
+	<script type="module" src='./js/movie-details.js'></script>
+</body>
+</html>

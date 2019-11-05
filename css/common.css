@@ -1,0 +1,16 @@
+body{
+	width:100%;
+}
+.header{
+	width:100%;
+	
+}
+.main{
+	width : 99.8%;
+	display: flex;
+	border:1px solid black;
+}
+.clearfix{
+	clear:both;
+}
+

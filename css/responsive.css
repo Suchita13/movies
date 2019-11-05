@@ -1,0 +1,18 @@
+    @media only screen and (max-width:1000px){
+	.movielist{
+		width: 30%;
+	}	
+  }
+
+  @media only screen and (max-width:768px){
+	.movielist{
+		width: 44%;
+	}	
+  }
+
+  @media only screen and (max-width: 550px) {
+    .movielist{
+        width:100%;
+    }
+  }
+
